@@ -1,3 +1,27 @@
 /* this is my stylesheet for the homepage*/
 /* this would outline the boxes of the grid
 * {outline: 1px solid red;}*/
+
+
+
+/* header styles*/
+
+h1, h6 {font-family: sans-serif;}
+
+header {}
+header h1 {color:red; background-color: grey}
+
+/* nav styles */
+nav {}
+footer{}
+
+
+
+* {outline: 1px solid red;}
+
+
+/* header styles */
+
+/* main body styles */
+
+/* footer styles */
