@@ -17,11 +17,11 @@
 <div class="wrapper">
 
 <header class="row-justify">
-    <h1>Logo</h1>
+<!-- remomved "logo" header   <h1>Logo</h1> -->
     <nav>
-      <a href="index.html"> Home </a>
-      <a href="portfolio.html"> Portfolio </a>
-      <a href="about.html"> About Me </a>
+      <a href="index.html" class="column small-12 medium-2 small-1"> Home </a>
+      <a href="portfolio.html" class="column small-12 medium-2 small-1"> Portfolio </a>
+      <a href="about.html" class="column small-12 medium-2 small-1"> About Me </a>
     </nav>
 </header>
 
@@ -37,6 +37,30 @@
       </figure>
 
   </div>
+
+
+
+<div class="center">
+<script type="text/javascript">
+    var d = new Date();
+    var time = d.getHours();
+
+    if (time < 12)
+      {
+        document.write("<b>Good Morning Doods.</b>");
+      }
+
+    if (time > 12)
+      {
+        document.write("<b>Good Afternoon Doods.</b>");
+      }
+
+    if (time == 12)
+      {
+        document.write("<b>Good Evening Doods.</b>");
+      }
+</script>
+</div>
 
 <footer class="row">
 <h6>copyright 2017 all rights reserved</h6>

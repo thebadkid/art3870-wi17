@@ -12,15 +12,44 @@ header {}
 header h1 {color:red; background-color: grey}
 
 /* nav styles */
-nav {}
-footer{}
+nav a{
+  color: red;
+  text-decoration: none;
+  text-align: center;
+}
+nav a: hover{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.imageContainer{
+  position: absolute;
+  width: 300px; /*image width*/
+  height: 300px; /*image height*/
+  left: auto;
+  top: auto;
+  margin-left: -50px;
+  margin-top: -10px;
+}
+
+.center{
+  text-align: center;
+  margin-top: auto;
+}
+
+/*body color*/
+
+body{background-color: #8c92ac}
 
 
+/* {outline: 1px solid red;} */
 
-* {outline: 1px solid red;}
 
-
-/* header styles */
 
 /* main body styles */
 
