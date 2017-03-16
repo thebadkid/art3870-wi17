@@ -9,7 +9,7 @@
 h1, h6 {font-family: sans-serif;}
 
 header {}
-header h1 {color:red; background-color: grey}
+header h1 {color:black; background-color: #a9a9a9}
 
 /* nav styles */
 nav a{
@@ -25,6 +25,12 @@ nav a: hover{
 footer{
   position: fixed;
   bottom: 0;
+}
+
+.bar{
+  width:50%;
+  max-width:960px;
+  margin: 0 auto;
 }
 
 .imageContainer{
@@ -44,7 +50,7 @@ footer{
 
 /*body color*/
 
-body{background-color: #8c92ac}
+body{background-color: #a9a9a9}
 
 
 /* {outline: 1px solid red;} */

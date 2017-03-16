@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+ background-color: #000000;
+ background-image: url("http://i259.photobucket.com/albums/hh293/bluedemon0091/stars1_zpscfde0o6s.png");
+}
+
+#canvas{
+  margin:0 auto;
+  width:12000px;
+  height:500px;
+  position:relative;
+
+
+}
+
+#demo{
+font-family: Arial, Helvetica, sans-serif;
+font-size:55px;
+color:#ffffff;
+position:absolute;
+right:378px;
+top:700px;
+}
+
+
+
+
+.neptune {
+    position: absolute;
+    right:1000px;
+
+}
+
+.uranus {
+
+	 position: absolute;
+     right:2000px;
+}
+
+.saturn {
+
+	 position: absolute;
+     right:3000px;
+}
+
+.jupiter {
+
+	position: absolute;
+    right:4000px;
+}
+
+.mars {
+
+	 position: absolute;
+     right:5000px;
+}
+
+.earth {
+
+	 position: absolute;
+     right:6000px;
+}
+
+.venus {
+
+	 position: absolute;
+     right:7000px;
+}
+
+.mercury {
+	 position: absolute;
+     right:8000px;
+
+}
+
+.sun {
+	 position: absolute;
+     right:9000px;
+
+}
+
+.ufo {
+
+
+	 top: 580px;
+     left: 400px;
+	 position: fixed;
+
+}
+
+.sol{
+font-family: Arial, Helvetica, sans-serif;
+font-size:90px;
+color:#ffffff;
+position: absolute;
+right:11000px;
+top: 200px;
+}
+
+.name{
+font-family: Arial, Helvetica, sans-serif;
+font-size:50px;
+color:#ffffff;
+position: absolute;
+top: 500px;
+right: 11005px;
+
+}
+
+.bye{
+font-family: Arial, Helvetica, sans-serif;
+font-size:70px;
+color:#ffffff;
+position:absolute;
+right:300px;
+top:300px;
+
+
+}
+
+
+.title1{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+color:#ffffff;
+position: absolute;
+right:9340px;
+
+}
+
+.title2{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+color:#ffffff;
+position: absolute;
+right:8100px;
+
+}
+
+.title3{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:7100px;
+vertical-align:-150px;
+}
+
+.title4{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:6100px;
+vertical-align:-30px;
+}
+
+.title5{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:5100px;
+vertical-align:-30px;
+}
+
+
+.title6{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:4200px;
+vertical-align:-30px;
+top: -10px;
+}
+
+
+.title7{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:3050px;
+vertical-align:-30px;
+}
+
+
+.title8{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:1900px;
+vertical-align:-30px;
+}
+
+
+.title9{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:46px;
+line-height:-400px;
+color:#ffffff;
+position: absolute;
+right:1000px;
+vertical-align:-30px;
+}
+
+.fact1{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:9700px
+}
+
+.fact2{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:8300px
+}
+
+.fact3{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:7350px
+}
+
+.fact4{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:6300px;
+}
+
+.fact5{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:5250px;
+}
+
+.fact6{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 80px;
+right:4550px
+}
+
+.fact7{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:3255px
+}
+
+.fact8{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:2225px
+}
+
+.fact9{
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px;
+color:#ffffff;
+position: absolute;
+top: 125px;
+right:1220px
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Out in Space!</title>
+<meta name="description" content="Prime Real Estate Index">
+<link rel="stylesheet" href="../lab1/css/reset.css">
+<link href="../finalscroll/css/finalscroll.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="canvas">
+
+<h1 class="sol">Out In Space! <br>Let's take a journey!</h1>
+<p class="name">Jack Thammavong</p>
+
+<!--Music-->
+<iframe width="0" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194566340&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+ <!--End of Music-->
+
+
+<!--<iframe width="0" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52311943&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
+
+
+
+
+
+
+
+
+    <!--Celestial Bodies-->
+    <img src="images/sun2.png" class="sun" alt="Picture of Sun"/>
+    <img src="images/mercury2.png" class="mercury" alt="Picture of Mercury"/>
+    <img src="images/venus2.png" class="venus" alt="Picture of Venus"/>
+    <img src="images/earth2.png" class="earth" alt="Picture of Earth"/>
+    <img src="images/mars2.png" class="mars" alt="Picture of Mars"/>
+    <img src="images/jupiter2.png" class="jupiter" alt="Picture of Jupiter"/>
+    <img src="images/saturn2.png" class="saturn" alt="Picture of Saturn"/>
+    <img src="images/uranus2.png" class="uranus" alt="Picture of Uranus"/>
+    <img src="images/neptune2.png" class="neptune" alt="Picture of Neptune"/>
+    <img src="images/ufo.png" class="ufo" alt="A tiny flying saucer"/>
+    <!--End of Celestial Bodies-->
+
+     <!-- Planet Titles-->
+     <h3 class="title1">Sol (Day Length:25.38 Earth days)</h3>
+     <h3 class="title2">Mercury (Day Length:58.646 Earth days)</h3>
+     <h3 class="title3">Venus (Day Length:23.934 hours)</h3>
+     <h3 class="title4">Earth (Day Length:24.00 hours)</h3>
+     <h3 class="title5">Mars (Day Length:24.623 hours)</h3>
+     <h3 class="title6">Jupiter (Day Length:9.92496 hours)</h3>
+     <h3 class="title7">Saturn (Day Length:10.656 hours)</h3>
+     <h3 class="title8">Uranus (Day Length:-0.718 Earth days)</h3>
+     <h3 class="title9">Neptune (Day Length:16.11 hours)</h3>
+      <!--End of Planet Titles-->
+
+      <!--Facts-->
+
+      <!--Sol-->
+
+      <p class="fact1">Temperature:10,000 °F</p>
+      <!-- Mercury-->
+
+      <p class="fact2">Temperature:-279/801 °F</p>
+      <!--Venus-->
+
+      <p class="fact3">Temperature: 864 °F</p>
+      <!--Earth-->
+
+      <p class="fact4">Temperature: -126/136 °F</p>
+      <!--Mars-->
+
+      <p class="fact5">Temperature:-225/70 °F</p>
+      <!--Jupiter-->
+
+      <p class="fact6">Temperature:-234 °F</p>
+      <!--Saturn-->
+
+      <p class="fact7">Temperature:-288 °F</p>
+      <!-- Uranus-->
+
+      <p class="fact8">Temperature:-357 °F</p>
+      <!--Neptune-->
+
+      <p class="fact9">Temperature:10,000 °F</p>
+
+      <!--End of Facts-->
+
+      <p class="bye">Leaving Already?</p>
+
+      <h2 id="demo"></h2>
+<script>
+
+var d = new Date ();
+
+var weekday = new Array (7);
+weekday [0] = "Sunday, welcome to the week.";
+weekday [1] = "Monday, dood Jupiter is huge!";
+weekday [2] = "Tuesday, delerious no?";
+weekday [3] = "Wednesday, midweek. Wanna chill?";
+weekday [4] = "Thursday, is it finally over?";
+weekday [5] = "Friday, WE MADE IT!";
+weekday [6] = "Saturday, start of weekend. More planets?";
+
+var n =weekday[d.getDay()] ;
+document.getElementById("demo").innerHTML = n;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src="jquery/jquery-2.1.3.min.js"></script>
+
+
+
+</body>
+</html>
