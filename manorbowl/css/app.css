@@ -1,0 +1,35 @@
+
+body {
+  background-color: #576487;
+}
+
+nav a {
+  color: #000000;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.transbox {
+  /*margin: 30px;*/
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60)
+}
+
+div.transbox p {
+  /*margin: 5%;*/
+  font-weight: bold;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+/*div.transbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/

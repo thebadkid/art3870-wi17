@@ -1,0 +1,57 @@
+body {height:10000px;}
+
+/*
+building the background with css multiple background images
+*/
+body{
+  background-color:#ADDFE9;
+  background-image:
+url("http://lostworldsfairs.com/atlantis/img/bg_frontwave.png"),
+url("http://lostworldsfairs.com/atlantis/img/bg_backwave.png"),
+url("http://lostworldsfairs.com/atlantis/img/bg_clouds.gif");
+
+background-position: 20px 335px, 0 300px,left top;
+
+background-repeat:repeat-x;
+
+}
+
+
+
+/*start the wrapper*/
+#wrapper {
+  border:1px solid red;
+  width:300px;
+  margin:0 auto;
+  height:9000px;
+  position:relative;
+  }
+h1 {color:red;
+    /*border:1px solid green;*/
+    opacity:1;
+    position:absolute;
+    top:280px;
+    /*left:100px; this works for 300px*/
+    /*better version*/
+    left:50%;
+    margin-left:-50px;
+    width:100px;
+    z-index:100;
+    }
+
+#tint {/*background-color:black;*/
+       width:100%;
+       height:50px;
+       opacity:.5;
+       position:absolute;
+       z-index:10;
+       top:250px;
+       width:140px;
+       height:135px;
+       left:50%;
+       margin-left:-75px;
+       background-image:url("http://lostworldsfairs.com/atlantis/img/sign_electronics.png");
+       background-position: 5px -196px;
+       background-repeat:no-repeat;
+
+    }

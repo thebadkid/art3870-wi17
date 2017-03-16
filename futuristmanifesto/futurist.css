@@ -2,6 +2,23 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #0E1013;
+	top: 500px;
+}
+
+.ryu{
+	text-decoration-color: red;
+	font-size: 50px;
+	top: 25px;
+	left: 25px;
+	position: fixed;
+}
+
+.mega{
+	text-decoration-color: red;
+	font-size: 50px;
+	top: 25px;
+	left: 500px;
+	position: fixed;
 }
 
 .container {

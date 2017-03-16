@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #0E1013;
+	top: 500px;
+}
+
+
+.mega{
+	text-decoration-color: red;
+	font-size: 50px;
+	top: 100px;
+	left: 100px;
+	position: fixed;
+}
+
+.futurist{
+	text-decoration-color: red;
+	font-size: 50px;
+	top: 100px;
+	left: 500px;
+	position: fixed;
+}
